@@ -1,0 +1,27 @@
+{
+  "name": "bootdev-pokedex-ts",
+  "version": "1.0.0",
+  "description": "boot.dev project to build a pokedex with TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/main.js",
+    "dev": "npx tsc && node dist/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gr-pf/bootdev-pokedex-ts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/gr-pf/bootdev-pokedex-ts/issues"
+  },
+  "homepage": "https://github.com/gr-pf/bootdev-pokedex-ts#readme",
+  "devDependencies": {
+    "@types/node": "^25.6.2",
+    "typescript": "^6.0.3"
+  }
+}
